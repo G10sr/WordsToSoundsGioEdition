@@ -9,8 +9,7 @@ fnaf =  [
     "the mimic", "tangle", "helpy"
 ]
 message = "baby,tangle y lefty"
-for i in fnaf:
-    if i in message:
-        rand = random.randint(1, 9)
-        print(rand)
-        break
+
+if message in fnaf:
+    rand = random.randint(1, 9)
+    print(rand)
